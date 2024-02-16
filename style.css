@@ -26,13 +26,13 @@ body {
   }
 
   .task-list-container {
-    border: 1px solid rgb(230, 252, 233);
+    border: 1px solid rgb(170, 202, 175);
     margin-top: 1em;
     position: relative;
   }
   .tab-type {
     display: flex;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid  rgb(170, 202, 175);
   }
   
   .tab-type div {
@@ -42,7 +42,7 @@ body {
   
   #tab-underline {
     background-color: green;
-    height: 4px !important;
+    height: 4px;
     position: absolute;
     top: 52px;
     left: 0px;
@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid rgb(129, 151, 124);
     position: relative;
   }
   .task span {
@@ -98,6 +98,6 @@ body {
   
   .task-done {
     text-decoration: line-through;
-    background-color: lightgray;
+    background-color: rgb(160, 179, 156);
     transition: 0.5s;
   }
